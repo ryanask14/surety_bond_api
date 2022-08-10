@@ -1,0 +1,37 @@
+{
+  "name": "api-surety-bond",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "date-diff": "^0.2.2",
+    "dateformat": "^3.0.3",
+    "debug": "~2.6.9",
+    "excel4node": "^1.7.2",
+    "express": "~4.16.1",
+    "hbs": "^4.1.2",
+    "http-errors": "~1.6.3",
+    "js-sha256": "^0.9.0",
+    "jsonschema": "^1.2.6",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.3",
+    "node-cron": "^2.0.3",
+    "node-localstorage": "^2.1.6",
+    "nodemailer": "^6.6.3",
+    "pg": "^8.2.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^5.21.13",
+    "sybase": "^1.2.1",
+    "tedious": "^11.4.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

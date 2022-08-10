@@ -1,0 +1,43 @@
+{
+  "development": {
+    "databases":{
+      "Database1" :{
+        "username": "postgres",
+        "password": "askrindo",
+        "database": "SuretyBondOnlineDev",
+        "host": "10.220.20.3",
+        "port":"5432",
+        "dialect": "postgres",
+        "pool": {
+          "max": 5,
+          "min": 0,
+          "idle": 10000
+        }
+      },
+      "Database2" :{
+        "username": "sa",
+        "password": "Askrindo!@#2020",
+        "database": "ACS_DB_UAT_ALLSTREAM",
+        "host": "10.10.1.183",
+        "port":"1433",
+        "dialect": "mssql"
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
